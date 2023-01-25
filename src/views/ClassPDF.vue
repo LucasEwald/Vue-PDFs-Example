@@ -24,10 +24,10 @@ export default {
             doc.setLineWidth(.01).line(1, 1.1, 7.5, 1.1);
 
             //Add PDF Icon
-            // doc.addImage(require("../../public/assets/pdf_img.png"), "png", 7, 0.5, 1, 1);
+            doc.addImage(require("../../public/assets/pdf_img.png"), "png", 7, 0.5, 1, 1);
 
             //Add Border
-            // doc.rect(0.4, 0.4, 7.7, 10.2);
+            doc.rect(0.4, 0.4, 7.7, 10.2);
 
             //Installation Details
             doc.setFont("helvetica", "bold").setFontSize(16).text("Installation", 0.5, 1.5);
@@ -102,7 +102,7 @@ export default {
             //Start Second Page
             doc.addPage();
             //Add Border
-            // doc.rect(0.4, 0.4, 7.7, 10.2);
+            doc.rect(0.4, 0.4, 7.7, 10.2);
 
             //Other Functions
             doc.text("Page Control", 0.5, 1.5);
