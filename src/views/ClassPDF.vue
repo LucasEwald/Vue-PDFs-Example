@@ -151,7 +151,7 @@ export default {
                     ["jsPDF Examples:", "https://parall.ax/products/jspdf"],
                     ["jsPDF-AutoTable:", "https://www.npmjs.com/package/jspdf-autotable"],
                     ["Presentation Material", "https://drive.google.com/drive/folders/18Rr0lutwKIPh7jn5CgKbFnRmGr3HZTNm?usp=sharing"],
-                    ["GitHub Project", ""]
+                    ["GitHub Project", "https://github.com/LucasEwald/Vue-PDFs-Example"]
                 ],
                 margin: { left: 0.8 },
                 bodyStyles: {
